@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.bg-container {
+  width: 100%;
+  padding: 24px;
+}
+.form-element {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 24px;
+  align-items: flex-start;
+}
+.table-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.table-header-cell {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  width: 30%;
+  border-right: none;
+  margin-right: 8px;
+}
+.transaction {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+}
+.transactions-table {
+  width: 70%;
+  padding-right: 24px;
+}
